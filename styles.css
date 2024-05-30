@@ -85,17 +85,6 @@ gap: 15px;
     color: white;
 }
 
-
-.banner > .mas-info{
-    background-color: #0077ED;
-    color: white;
-    font-size: 17px;
-    font-weight: 400;
-    padding: 11px 21px;
-    border: none;
-    border-radius: 80px;
-}
-
 .img-bnn{
     display: flex;
     justify-content: center;
@@ -125,16 +114,6 @@ gap: 15px;
 
 }
 
-.banner-2 > .mas-info{
-background-color: #0077ED;
-color: white;
-font-size: 17px;
-font-weight: 400;
-padding: 11px 21px;
-border: none;
-border-radius: 80px;
-}
-
 .img-bnn-2{
     display: flex;
     justify-content: center;
@@ -161,17 +140,6 @@ border-radius: 80px;
     color: white;
 }
 
-
-.banner-3 > .mas-info{
-    background-color: #0077ED;
-    color: white;
-    font-size: 17px;
-    font-weight: 400;
-    padding: 11px 21px;
-    border: none;
-    border-radius: 80px;
-}
-
 .img-bnn-3{
     display: flex;
     justify-content: center;
@@ -183,6 +151,16 @@ border-radius: 80px;
     background-position: center;
 }
 
+.mas-info-bnn{
+    background-color: #0077ED;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 11px 21px;
+    border: none;
+    border-radius: 80px;
+}
+
 #split {
     height: 1776px;
     width: 100%;
@@ -190,6 +168,7 @@ border-radius: 80px;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 12px;
+    margin-bottom: 12px;
     gap: 12px;
 }
 .split-1{
@@ -202,19 +181,84 @@ border-radius: 80px;
     
 .split-left{
     display: flex;
-    background-color: #F5F5F7;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    background-image: url(wvdc24.png);
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: white;
     width: 50%;
     border: 1px solid blue;
     margin-left: 12px;
+    gap: 10px;
+}
+
+.split-left > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 34px;
+    font-weight: lighter;
+    display: flex;
+    margin-top: 50%;
+}
+
+.split-left > p{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.2;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .split-right{
     display: flex;
-    background-color: #000000;
-    color: white;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #C2E4F0;
+    color: black;
     width: 50%;
     border: 1px solid blue;
     margin-right: 12px;
+    background-image: url(ipad-air-nuevo.png);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.split-right > img{
+    display: flex;
+    margin-top: 10%;
+    height: 30px;
+    width: 129px;
+}
+
+.split-right > p{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.2;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.mas-info-sp{
+    background-color:#0077ED;
+    height: 35.6px;
+    width: 137.24px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight:200;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 80px;
 }
 
 .split-2{
@@ -227,18 +271,144 @@ border-radius: 80px;
 
 .split-left-2{
     display: flex;
-    background-color: black;
-    color: white;
+    flex-direction: column;
+    align-items: center;
+    background-color:#F5F5F7;
+    color: black;
     width: 50%;
     border: 1px solid red;
     margin-left: 12px;
+    background-image: url(MacBook-Air.png);
+    background-position-y: bottom;
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    gap: 10px;
+}
+
+.split-left-2 > h2{
+    display: flex;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+}
+
+.split-left-2 > p{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
 }
 
 .split-right-2{
     display: flex;
-    background-color: white;
-    color: black;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+    color: white;
     width: 50%;
     border: 1px solid red;
     margin-right: 12px;
+    background-image: url(watches.png);
+    background-size: 100% 60%;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+
+.split-right-2 > img{
+    display: flex;
+    margin-top: 10%;
+}
+
+.split-right-2 > p{
+    display: flex;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.split-3{
+    display: flex;
+    gap: 12px;
+    height: 580px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.split-left-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 50%;
+    border: 1px solid blue;
+    margin-left: 12px;
+    background-image: url(airpods.png);
+    background-size: 100% 60%;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    gap: 10px;
+}
+
+.split-left-3 > h2{
+    display: flex;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.split-left-3 > p{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.split-right-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FBFBFD;
+    color: black;
+    width: 50%;
+    border: 1px solid blue;
+    margin-right: 12px;
+    background-image: url(bg-watch-2.png);
+    background-size: 100% 60%;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    gap: 10px;
+}
+
+.split-right-3 > img{
+    display: flex;
+    margin-top: 10%;
+}
+
+.split-right-3 > p{
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#gallery{
+    display: flex;
+    height: 705.25px;
+    width: 100%;
+}
+
+.imgs-gallery{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    height: 512.2px;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
