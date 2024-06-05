@@ -4,6 +4,8 @@
     border: 0px;
 }
 
+
+
 header{
     background-color: #454545;
     height: 44px;
@@ -25,7 +27,7 @@ header{
 }
 
 #logo svg{
-    fill: white;
+    fill: #FFFFFF;
 }
 
 #upper-nav{
@@ -42,7 +44,6 @@ ul{
 
 li{
     list-style: none;
-    border: 1px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,7 +52,10 @@ li{
 }
 
 a{
-    color: white;
+    color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -59,11 +63,12 @@ a{
     height: 100%;
     width: 100%;
 }
-a:hover {
-    border: 1px solid red;
-    background-color: white;
-    color: black;
+
+#upper-nav a:hover{
+    background-color: none;
+    color: none;
 }
+
 
 #sec-1{
 display: flex;
@@ -184,6 +189,7 @@ gap: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: black;
     background-image: url(wvdc24.png);
     background-size: 70% 70%;
@@ -202,7 +208,7 @@ gap: 15px;
     font-size: 34px;
     font-weight: lighter;
     display: flex;
-    margin-top: 50%;
+    margin-top: 260px;
 }
 
 .split-left p{
@@ -393,17 +399,36 @@ gap: 15px;
 
 #gallery{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     height: 705.25px;
     width: 100%;
-    border: 1px solid red;
 }
 
 .imgs-gallery{
     display: flex;
     height: 667.25px;
-    width: 1250px;
-    border: 1px solid blue;
+    width: 1177.6px;
+}
+
+.imgs-gallery img{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.ul-pause{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 1177.6px;
+    height: 28px;
+}
+
+.pause{
+    height: 24px;
+    width: 24px;
 }
 
 footer{
@@ -413,7 +438,6 @@ footer{
     height: 512.2px;
     width: 100%;
     background-color: #F5F5F7;
-    border: 1px solid blue;
     margin: 0px;
     padding: 0px;
 }
@@ -423,7 +447,6 @@ footer{
     flex-direction: column;
     max-width: 1024px;
     height: 100%;
-    border: 1px solid green;
 }
 
 .apple-tv-p{
@@ -433,7 +456,6 @@ footer{
     padding-top: 17px;
     padding-bottom: 11px;
     border-bottom: 1px solid #0000008F;
-    border: 1px solid blue;
 }
 
 .apple-tv-p p{
@@ -454,15 +476,12 @@ span{
     width: 312px;
     padding-top: 20px;
     width: 100%;
-    border: 1px solid red;
-    border: 0px;
 }
 
 #lower-nav{
     display: flex;
     width: 100%;
     height: 100%;
-    border: 1px solid blue;
 }
 
 .navs-container{
@@ -471,12 +490,16 @@ span{
     width: 100%;
 }
 
+#lower-nav .navs-container a:hover{
+    text-decoration: underline;
+    text-decoration-color: #0000008F;
+}
+
 .box-dis-app{
     display: flex;
     flex-direction: column;
     height: 312px;
     width: 245px;
-    border: 1px solid red;
 }
 
 .discover ul{
@@ -494,7 +517,6 @@ span{
     flex-direction: column;
     height: 312px;
     width: 245px;
-    border: 1px solid blue;
 }
 
 .account ul{
@@ -512,7 +534,6 @@ span{
     flex-direction: column;
     height: 312px;
     width: 245px;
-    border: 1px solid red;
 }
 
 .company ul{
@@ -530,7 +551,6 @@ span{
     flex-direction: column;
     height: 312px;
     width: 245px;
-    border: 1px solid blue;
 }
 
 .values ul{
@@ -554,8 +574,8 @@ span{
 }
 
 #lower-nav li{
+    border: none;
     list-style: none;   
-    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -577,25 +597,21 @@ span{
     width: 100%;
 }
 
-a:hover {
-    border: 1px solid red;
-    background-color: white;
-    color: black;
-}
 
 .footer-container{
-    border: 1px solid red;
     display: flex;
     max-width: 1024px;
     height: 128px;
     flex-direction: column;
-    gap: 10px;
+    gap: 16px;
 }
 
 .superior{
     padding-top: 27px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #0000008F;
 }
 
 .superior span{
