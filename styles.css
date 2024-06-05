@@ -84,7 +84,6 @@ gap: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #000;
     flex-direction: column;
     padding: 0px 100px;
     background-color: #000;
@@ -112,7 +111,6 @@ gap: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
     flex-direction: column;
     padding: 0px 100px;
     background-color: #F5F5F7;
@@ -139,7 +137,6 @@ gap: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #000;
     flex-direction: column;
     padding: 0px 100px;
     background-color: black;
@@ -180,7 +177,6 @@ gap: 15px;
 .split-1{
     height: 580px;
     width: 100%;
-    border: 1px solid red;
     display: flex;
     gap: 12px;
 }
@@ -197,7 +193,6 @@ gap: 15px;
     background-position: top center;
     color: white;
     width: 50%;
-    border: 1px solid blue;
     margin-left: 12px;
     gap: 10px;
 }
@@ -229,7 +224,6 @@ gap: 15px;
     background-color: #C2E4F0;
     color: black;
     width: 50%;
-    border: 1px solid blue;
     margin-right: 12px;
     background-image: url(ipad-air-nuevo.png);
     background-size: 100% 60%;
@@ -273,7 +267,6 @@ gap: 15px;
     gap: 12px;
     height: 580px;
     width: 100%;
-    border: 1px solid blue;
 }
 
 .split-left-2{
@@ -283,7 +276,6 @@ gap: 15px;
     background-color:#F5F5F7;
     color: black;
     width: 50%;
-    border: 1px solid red;
     margin-left: 12px;
     background-image: url(MacBook-Air.png);
     background-position-y: bottom;
@@ -313,7 +305,6 @@ gap: 15px;
     background-color: black;
     color: white;
     width: 50%;
-    border: 1px solid red;
     margin-right: 12px;
     background-image: url(watches.png);
     background-size: 100% 60%;
@@ -337,7 +328,6 @@ gap: 15px;
     gap: 12px;
     height: 580px;
     width: 100%;
-    border: 1px solid red;
 }
 
 .split-left-3{
@@ -347,7 +337,6 @@ gap: 15px;
     background-color: black;
     color: white;
     width: 50%;
-    border: 1px solid blue;
     margin-left: 12px;
     background-image: url(airpods.png);
     background-size: 100% 60%;
@@ -376,7 +365,6 @@ gap: 15px;
     background-color: #FBFBFD;
     color: black;
     width: 50%;
-    border: 1px solid blue;
     margin-right: 12px;
     background-image: url(bg-watch-2.png);
     background-size: 100% 60%;
@@ -424,9 +412,25 @@ gap: 15px;
     justify-content: flex-end;
     width: 1177.6px;
     height: 28px;
+    gap: 450px;
+}
+
+.ul-flash-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 220px;
+    height: 25px;
+}
+
+.ul-flash-row ul{
+    display: flex;
+    width: 100%;
+    height: 8px;
 }
 
 .pause{
+    display: flex;
     height: 24px;
     width: 24px;
 }
