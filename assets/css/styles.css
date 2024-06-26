@@ -84,7 +84,6 @@ gap: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #000;
     flex-direction: column;
     padding: 0px 100px;
     background-color: #000;
@@ -96,7 +95,7 @@ gap: 15px;
     justify-content: center;
     height: 50%;
     width: 100%;
-    background-image: url(iphone-15-pro.jpg);
+    background-image: url(../img/iphone-15-pro.jpg);
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;
@@ -112,7 +111,6 @@ gap: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
     flex-direction: column;
     padding: 0px 100px;
     background-color: #F5F5F7;
@@ -125,7 +123,7 @@ gap: 15px;
     justify-content: center;
     height: 50%;
     width: 100%;
-    background-image: url(iphone-15.jpg);
+    background-image: url(../img/iphone-15.jpg);
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center; 
@@ -139,7 +137,6 @@ gap: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #000;
     flex-direction: column;
     padding: 0px 100px;
     background-color: black;
@@ -151,7 +148,7 @@ gap: 15px;
     justify-content: center;
     height: 50%;
     width: 100%;
-    background-image: url(ipad-pro.jpg);
+    background-image: url(../img/ipad-pro.jpg);
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;
@@ -180,7 +177,6 @@ gap: 15px;
 .split-1{
     height: 580px;
     width: 100%;
-    border: 1px solid red;
     display: flex;
     gap: 12px;
 }
@@ -191,13 +187,12 @@ gap: 15px;
     align-items: center;
     justify-content: center;
     background-color: black;
-    background-image: url(wvdc24.png);
+    background-image: url(../img/wvdc24.png);
     background-size: 70% 70%;
     background-repeat: no-repeat;
     background-position: top center;
     color: white;
     width: 50%;
-    border: 1px solid blue;
     margin-left: 12px;
     gap: 10px;
 }
@@ -229,9 +224,8 @@ gap: 15px;
     background-color: #C2E4F0;
     color: black;
     width: 50%;
-    border: 1px solid blue;
     margin-right: 12px;
-    background-image: url(ipad-air-nuevo.png);
+    background-image: url(../img/ipad-air-nuevo.png);
     background-size: 100% 60%;
     background-repeat: no-repeat;
     background-position-y: bottom;
@@ -273,7 +267,6 @@ gap: 15px;
     gap: 12px;
     height: 580px;
     width: 100%;
-    border: 1px solid blue;
 }
 
 .split-left-2{
@@ -283,9 +276,8 @@ gap: 15px;
     background-color:#F5F5F7;
     color: black;
     width: 50%;
-    border: 1px solid red;
     margin-left: 12px;
-    background-image: url(MacBook-Air.png);
+    background-image: url(../img/MacBook-Air.png);
     background-position-y: bottom;
     background-size: 100% 60%;
     background-repeat: no-repeat;
@@ -313,9 +305,8 @@ gap: 15px;
     background-color: black;
     color: white;
     width: 50%;
-    border: 1px solid red;
     margin-right: 12px;
-    background-image: url(watches.png);
+    background-image: url(../img/watches.png);
     background-size: 100% 60%;
     background-position-y: bottom;
     background-repeat: no-repeat;
@@ -337,7 +328,6 @@ gap: 15px;
     gap: 12px;
     height: 580px;
     width: 100%;
-    border: 1px solid red;
 }
 
 .split-left-3{
@@ -347,9 +337,8 @@ gap: 15px;
     background-color: black;
     color: white;
     width: 50%;
-    border: 1px solid blue;
     margin-left: 12px;
-    background-image: url(airpods.png);
+    background-image: url(../img/airpods.png);
     background-size: 100% 60%;
     background-position-y: bottom;
     background-repeat: no-repeat;
@@ -376,9 +365,8 @@ gap: 15px;
     background-color: #FBFBFD;
     color: black;
     width: 50%;
-    border: 1px solid blue;
     margin-right: 12px;
-    background-image: url(bg-watch-2.png);
+    background-image: url(../img/bg-watch-2.png);
     background-size: 100% 60%;
     background-position-y: bottom;
     background-repeat: no-repeat;
@@ -424,9 +412,25 @@ gap: 15px;
     justify-content: flex-end;
     width: 1177.6px;
     height: 28px;
+    gap: 450px;
+}
+
+.ul-flash-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 220px;
+    height: 25px;
+}
+
+.ul-flash-row ul{
+    display: flex;
+    width: 100%;
+    height: 8px;
 }
 
 .pause{
+    display: flex;
     height: 24px;
     width: 24px;
 }
@@ -658,3 +662,6 @@ span{
 .colombia a{
     color: #0000008F;
 }
+
+
+
