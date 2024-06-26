@@ -1,1 +1,1 @@
-Outline project based on the apple website developed with HTML and CSS.
+Outline project based on the Apple website developed with HTML and CSS.
